@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url(https://db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta+Bold);
+
+body
+{
+	font-family: "Nunito Sans";
+    margin: 0;
+    padding: 0;
+ 
+}
+.navbar{
+
+    
+    border-bottom: solid black;
+display: flex;
+justify-content: space-between;
+
+
+}
+.page
+{  padding-top:  30px;
+    padding-bottom:  30px;
+   text-decoration: none;
+   
+}
+span a
+{
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 45px;
+    color: black;
+    font-family: sans-serif;
+}
+.navbar img{
+    padding-left: 50px;
+    padding-top:  16px;
+    padding-bottom:  16px;
+}
+.page #rightnav {
+    padding-right: 100px;
+   
+}
+.body
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 70px;
+}
+.body #intro {
+    font-size: 50px;
+    color: black;
+    font-family: sans-serif;
+}
+.body #image {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+    background: #2457f5;
+    display: inline-block;
+   
+
+}
+.body #image img{
+    border-radius: 20px;
+    height: 562px;
+    width: 375px;
+     display: block;
+}
+.foot{
+    margin-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 50px ;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+.foottext{
+    padding-left: 50px;
+    padding-right: 70px;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+   
+   
+    background-color: lightgrey;
+   gap: 30px;
+}
+.last
+{
+    padding-left: 50px;
+    padding-right: 60px;
+    display: flex;
+    gap: 35px;
+    margin-bottom: 30px;
+    
+}
+.footer
+{
+    border-top: solid black;
+
+}
